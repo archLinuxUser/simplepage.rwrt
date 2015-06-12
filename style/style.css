@@ -38,6 +38,7 @@ body {
 	font-family: "Museo", "Helvetica Neue", sans-serif;			/* Font */
 	background-image: url(../images/highRes13.jpg);				/* Picture from one of our Philippine vacation Bohol */
 	background-repeat: no-repeat;						/* No repeating of images on the page */
+	background-size: cover;							/* Full-screen image if possible or as large */
     	background-position: center top;					/* Position is in reference to the whole page */
 	text-shadow: rgba(0,0,0,0.6) 1px 1px 0; 				/* Text Shadow */
 }
