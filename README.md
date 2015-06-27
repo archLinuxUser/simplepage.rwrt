@@ -1,6 +1,7 @@
-# simplepage.rwrt - modified version for personal use. There's a checksum.asc file
+simplepage.rwrt - modified version. There's a checksum.asc file  
+-------------------- 
 
-## Configuration
+## Configuration:
 
 ### index.html
 This is where you add your links. But don't worry, there's no HTML skills needed.

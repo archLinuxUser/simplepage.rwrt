@@ -1,5 +1,7 @@
-# Instructions for building on an Amazon AWS EC2 server
-
+# Instructions for building on an Amazon AWS EC2 server  
+####    by Jeremy   http://archlinuxuser.info  
+-------------------  
+  
 1. Setup an Amazon AWS account  https://aws.amazon.com
 
 2. Provision an EC2 server   
@@ -35,11 +37,19 @@ g. - add the line below to /etc/fstab -
 a. access http://ip.publicaddress.from.aws-dashboard via web browser  
 b. free -mt
 
-10. If everything there, then start to clean-up the simplepage (your webpage/website)  
+9. If everything there, then start to clean-up the simplepage (your webpage/website)  
 a. cd /var/www/html && sudo nano index.html   # for modifying the links/personal link  
 b. sudo nano style/style.css  
 background-image			# background picture - remove or change  
 html codes for font colors and font sizes, and background color  
 c. sudo nano js/script.js
 
-11. Save a backup of the AWS EC2 instance
+10.  http://ip.publicaddress/storage  
+a. for hosting files  
+b. transfer files  to  /home/ubuntu/git  
+c. sudo cp /home/ubuntu/git/filename.or.foldername /var/www/html/storage/
+
+11. Save a backup of the AWS EC2 instance  
+a. Amazon AWS EC2 dashboard/images  
+b. Select on the button Actions, dropdown, create Image  
+c. Name the image for use later
