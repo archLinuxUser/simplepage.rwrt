@@ -50,6 +50,6 @@ b. transfer files  to  /home/ubuntu/git
 c. sudo cp /home/ubuntu/git/filename.or.foldername /var/www/html/storage/
 
 11. Save a backup of the AWS EC2 instance  
-a. Amazon AWS EC2 dashboard/images  
-b. Select on the button Actions, dropdown, create Image  
+a. Amazon AWS EC2 dashboard/instances  
+b. Highlight/select the running instance, press on the button Actions, dropdown, create Image  
 c. Name the image for use later
